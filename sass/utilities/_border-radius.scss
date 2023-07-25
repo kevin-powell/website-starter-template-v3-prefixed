@@ -1,0 +1,13 @@
+@use "../abstracts/" as *;
+
+.#{$prefix} {
+  &border-radius-1 {
+    border-radius: $border-radius-1;
+  }
+}
+
+.#{$prefix} {
+  &border-radius-2 {
+    border-radius: $border-radius-2;
+  }
+}

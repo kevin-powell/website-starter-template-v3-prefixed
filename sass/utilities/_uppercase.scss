@@ -1,0 +1,7 @@
+@use "../abstracts/" as *;
+
+.#{$prefix} {
+  &uppercase {
+    text-transform: uppercase;
+  }
+}
